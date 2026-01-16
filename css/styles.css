@@ -1,0 +1,94 @@
+:root {
+  --color-brand: #819b57;
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+  --color-brand-dark: #465929;
+  --color-dark-main: rgba(49, 38, 26, 1);
+}
+
+body {
+  color: var(--color-primary-dark);
+}
+
+/* Base style */
+ul {
+  list-style-type: none;
+}
+/* button style */
+.button-order {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-order:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+.button-order:active {
+  background-color: rgb(235, 235, 228);
+}
+
+/* link style */
+.link {
+  color: var(--color-primary-light);
+}
+.link:hover {
+  color: var(--color-brand);
+}
+
+/* hero-title style */
+.hero-title {
+  color: var(--color-primary-light);
+}
+.hero-title .accent {
+  color: var(--color-brand);
+}
+
+/* advantages list */
+.advantages-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+}
+
+/* section-title */
+.Section-title {
+  color: var(--color-primary-dark);
+}
+
+/* descriptio-pekaren */
+.description-pekaren {
+  color: var(--color-dark-main);
+}
+.description-pekaren .accent-description-pekaren {
+  color: rgba(129, 155, 87, 1);
+}
+
+/* best-cookers-title */
+.best-cookers {
+  color: var(--color-dark-main);
+}
+.best-cookers2 {
+  color: rgba(70, 89, 41, 1);
+}
+
+/* Nastya-and-Vlad-Description */
+.Nastya-description {
+  color: var(--color-dark-main);
+}
+.Vlad-description {
+  color: var(--color-dark-main);
+}
+
+/* link-footer style */
+.link-footer {
+  color: var(--color-primary-light);
+}
+.link:hover {
+  color: var(--color-brand);
+}
+
+.dani {
+  color: var(--color-brand);
+}
